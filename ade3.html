@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<htmL >
+<head>
+
+	<title>my first calculater </title>
+	
+	<script>
+		console.log("u");
+		var DIVISION='/'; var MULTIPCATION='*'; var SUMMATION='+'; var SUBTRACTION = '-';
+
+		var num1=prompt("insert the first number","");
+		var num2=prompt("insert the second number","");
+		var operation=prompt("What operation should i calculate","+,-,/,*");
+		var result;
+
+		if (operation==DIVISION)
+		{
+			result=Number(num1)/Number(num2);
+			alert(result);
+		}
+		else if (operation== MULTIPCATION)
+		{
+			result=Number(num1)*Number(num2);
+			alert (result);
+		}
+		else if (operation==SUMMATION)
+		{
+			result=Number(num1)+Number(num2);
+			alert(result);
+		}
+		else if (operation==SUBTRACTION)
+		{
+			result=Number(num1)-Number(num2);
+			alert(result);
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>

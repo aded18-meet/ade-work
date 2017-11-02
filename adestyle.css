@@ -17,14 +17,35 @@ img{
 
 body{
     font-family: Arial;
-    background-image: url("https://www.google.co.il/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwj2zsLczY7XAhWEYlAKHbwmBR0QjRwIBw&url=https%3A%2F%2Fsticker.market%2F%23!%2Fgif%2Fpng-58dae6832723a307e04d3942&psig=AOvVaw2U0Qwk2To1DuTAGxuAc_vc&ust=1509118236619173");
+    background-image: url("https://goo.gl/9EtBc6");
+
 }
 #secondid{
-	text-decoration: underline;
+	
 	display: table-cell;
-	vertical-align: middle;
+	
 	text-align: center;
+	color: lime;
 }
 .firstclass{
 	color: lime;
+	text-align: center;
+}
+#mid{text-decoration: underline;
+		text-align: center;
+}
+/*@keyframes example{
+	
+	0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: black;}
+    100% {background-color: green;}
+}
+*
+.all{
+	
+	background-color: red;
+	animation-name: example;
+	animation-duration: 2s;
+	
 }
